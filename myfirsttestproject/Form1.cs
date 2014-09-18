@@ -20,6 +20,7 @@ namespace myfirsttestproject
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("hello");
+            textBox1.Text = "hello";
         }
     }
 }
