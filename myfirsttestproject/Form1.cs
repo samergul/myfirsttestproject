@@ -21,6 +21,13 @@ namespace myfirsttestproject
         {
             MessageBox.Show("hello");
             textBox1.Text = "hello";
+            DialogResult dr = MessageBox.Show("Are you happy now?",
+                      "Mood Test", MessageBoxButtons.YesNo);
+            switch (dr)
+            {
+                case DialogResult.Yes: break;
+                case DialogResult.No: break;
+            }
         }
     }
 }
